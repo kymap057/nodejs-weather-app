@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title><%= title %></title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+<body>
+    <% include include/header%>
+	<div class="container">
+        <h1>Hello node js..!</h1>
+        <p><%= content %></p>
+        <ul>
+            <% lists.forEach((list)=>{ %>
+            <li><%= list.name %> - <%=list.age %></li>
+            <% }); %>
+        </ul>
+    </div>
+    <% include include/footer%>
+    <script src="./js/main.js"></script>
+</body>
+</html>

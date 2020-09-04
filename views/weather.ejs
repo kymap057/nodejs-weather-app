@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title><%= title %></title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="icon" href="./img/tym.jpg" id="icon-web">
+    </head>
+<body>
+    <% include include/header%>
+	<div class="container">
+        <h1>Weather App</h1>
+        <div class="content-inf">
+            <div id="frm-weather">
+                <form>
+                <input type="text" placeholder="location" id="location">
+                <button id="btn-submit">Search</button>
+            </form>
+            </div>
+            <div class="inf-weather">
+                 
+            </div> 
+        </div>
+    </div>
+    <% include include/footer%>
+    <script src="./js/main.js"></script>
+    <script src="./js/frm.js"></script>
+</body>
+</html>
