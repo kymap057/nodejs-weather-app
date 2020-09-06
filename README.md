@@ -1,7 +1,8 @@
 # nodejs-weather-app
+==sart==
 - npm init
 - npm i ejs ejs-locals express nodemon request
-# API
-- map:    https://developer.here.com/
-- weather: https://openweathermap.org/
+## API
+- [API MAP](https://developer.here.com/)
+- [API_weather](https://openweathermap.org/)
 
