@@ -1,5 +1,4 @@
 # nodejs-weather-app
-==sart==
 - npm init
 - npm i ejs ejs-locals express nodemon request
 ## API
