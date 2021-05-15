@@ -2,6 +2,7 @@
 ```bash
   npm init
   npm i ejs ejs-locals express nodemon request
+  npm start
 ```
 ## API
 - [API MAP](https://developer.here.com/)
